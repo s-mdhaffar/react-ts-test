@@ -1,0 +1,46 @@
+.footer{
+    margin-top: 50px;
+    background-color: #222222;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    .social{
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        
+    }
+
+    form{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        span{
+            font-weight: 800;
+        }
+        input{
+            border: 1px solid white;
+            padding: 5px;
+            background-color: #222222;
+        }
+        button{
+            border: none;
+            padding: 5px;
+        }
+        @media screen and (max-width:320px) {
+            display: none;
+        }
+    }
+
+    p{
+        width: 800px;
+        text-align: center;
+        @media screen and (max-width:320px) {
+            display: none;
+        }
+    }
+}
